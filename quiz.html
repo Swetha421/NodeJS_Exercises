@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Quiz Application</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <div id="quiz-container">
+        <div id="question-container"></div>
+        <div id="options-container"></div>
+        <div id="feedback"></div>
+        <button id="prev-btn">Previous</button>
+        <button id="next-btn">Next</button>
+        <button id="submit-btn">Submit</button>
+    </div>
+    <div id="score-container" style="display:none;">
+        <h2>Your Score: <span id="score"></span></h2>
+        <button id="review-btn">Review Answers</button>
+    </div>
+    <div id="review-container" style="display:none;"></div>
+    <script src="quiz.js"></script>
+</body>
+</html>
